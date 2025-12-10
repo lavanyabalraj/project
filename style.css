@@ -1,0 +1,45 @@
+header{
+    text-align:center;
+    background:black;
+    padding:20px;
+}
+header img{
+    width:5%;
+    filter:grayscale(5%);
+    border-radius: 360%;
+}
+h1{
+    color:white;
+    font-size:35px;
+    letter-spacing:3px;
+}
+#gallery{
+    text-align:center;
+    padding:30px;
+}
+.gallery-grid{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.gallery-grid img{
+    width:250px;
+    border-radius:10px;
+}
+#order{
+    background:#f6f6f6;
+    padding:30px;
+    text-align:center;
+}
+input,textarea{
+    width:300px;
+    padding:10px;
+    margin:10px;
+}
+button{
+    background:black;
+    color:white;
+    padding:10px 20px;
+    border:none;
+}

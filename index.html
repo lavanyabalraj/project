@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ulloor Artist</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Artists Header">
+    <h1>ULLOOR ARTIST</h1>
+</header>
+
+<section id="gallery">
+    <h2>Our Artwork</h2>
+    <div class="gallery-grid">
+        <img src="jug.jpg">
+        <img src="per.jpg">
+        <img src="boy.jpg">
+    </div>
+</section>
+
+<section id="order">
+    <h2>Place Your Order</h2>
+
+    <form action="submit.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="tel" name="phone" placeholder="Phone Number" required><br>
+        <input type="email" name="email" placeholder="Email ID" required><br>
+        <textarea name="message" placeholder="Describe your order" required></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+</body>
+</html>
